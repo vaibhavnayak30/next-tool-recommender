@@ -214,39 +214,24 @@ common_workflows = [
 ]
 
 test_histories = [
-    # Basic editing patterns
     ["select", "copy"],
     ["cut", "paste"],
     ["select", "delete"],
     ["undo", "undo"],
-    
-    # Text formatting workflows
     ["select", "bold"],
     ["select", "italic", "underline"],
     ["align_center"],
     ["font_size", "font_family"],
-    
-    # Document management
     ["new_document", "save_as"],
     ["open"],
     ["save", "print"],
-    
-    # Search and replace
     ["find", "replace"],
-    
-    # Insertions
     ["insert_image", "select"],
     ["insert_table", "insert_link"],
-    
-    # Lists and formatting
     ["bullet_list", "indent"],
     ["numbered_list", "outdent"],
-    
-    # Collaboration and review
     ["share_document", "add_comment"],
     ["track_changes", "accept_change"],
-    
-    # Complex, multi-step sequences
     ["select", "copy", "paste", "undo"],
     ["open", "find", "replace", "save"],
     ["new_document", "insert_header", "insert_footer"],
